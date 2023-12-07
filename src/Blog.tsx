@@ -6,14 +6,15 @@
  * GraphCMS: https://graphcms.com
  */
 
-import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
-import 'quill/dist/quill.snow.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Config from './Config';
-import { Content, GlobalStyle, Nav } from './Styles';
-import Home from './Home';
-import { Author } from './Authors';
-import { Create, Edit, Post } from './Posts';
+import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+import "quill/dist/quill.snow.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Config from "./Config";
+import { Content, GlobalStyle, Nav } from "./Styles";
+import Home from "./Home";
+import { Author } from "./Authors";
+import { Create, Edit } from "./Posts";
+import { Post } from "./Post";
 
 const Blog = () => {
   return (
